@@ -1,0 +1,141 @@
+.top-container{
+  background-color: #d2fafb;
+  position: relative;
+  padding-top: 100px}
+
+body {text-align: center;
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      color: #40514E}
+
+  /*If we set the body and h1 font-size dynamically[%/em/rem], since h1 is contained in the body, the final h1 font size will be the sum of the h1 and body font size*/
+  /*But if we set as a static size, e.g 90px, the font size will just be 90px*/
+h1{font-size: 5.625rem;
+  /*or can give font-size in % or em to make it dynamic when ppl change their displays on their own comp (100% is 16px font size). 100%=16px=1em*/
+    width: 60%;
+  /**the following line is to centre it horizontally*/
+  margin:50px auto 0;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF}
+
+h2 {font-family: 'Montserrat', sans-serif;
+    font-size: 2.25rem;
+    font-weight: normal;
+    color: #66BFBF;
+    padding-bottom: 10px;}
+
+h3 {font-family: 'Montserrat', sans-serif;
+    color: #11999E}
+
+p{line-height: 2;}
+
+.footer-link{color: #11999E;}
+
+hr {border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    border-color: #EAF6F6;
+    width: 4%;
+    margin: 100px auto;}
+
+a{color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;}
+
+a:hover { color: #EAF6F6;}
+
+.aspire{text-decoration: underline;}
+
+.short-intro{font-size: 1.75rem;
+              width: 30%;
+              margin: auto;
+            }
+
+.top-cloud {
+  position: absolute;
+  /*since the top cloud is inside the top-container,its position is relative to the top-container*/
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left:250px;
+  bottom:300px
+}
+
+.profile{margin-bottom: 50px;}
+
+.process {height: 15%;
+          width: 15%;
+          float: left;
+          margin-right:30px; }
+
+.singer{height: 15%;
+        width: 15%;
+        float: right;
+        margin-left: 30px;}
+
+.skill-row {width:50%;
+            margin: 100px auto;
+            text-align: left;
+            line-height: 2;}
+
+.middle-container{margin: 100px 0;
+          }
+
+.bottom-container {background-color: #66BFBF;
+                    padding: 50px 0 20px;}
+
+
+.contact-msg{width: 40%;
+              margin: 40px auto 60px;}
+
+.copyright {color: #EAF6F6;
+            font-size: 0.75rem;
+            padding:20px 0;}
+
+.btn { background: #11CDD4;
+       background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+       background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+       background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+       background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+       background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+       -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+       border-radius: 8px;
+       color: #FFFFFF;
+       font-family: 'Montserrat', sans-serif;
+       font-size: 20px;
+       padding: 20px;
+       border: solid #FFFFFF 0px;
+       text-decoration: none;
+       display: inline-block;
+       cursor: pointer;
+       text-align: center; }
+
+.btn:hover { border: solid #337FED 1px;
+             background: #30E3CB;
+             background-image: -webkit-linear-gradient(top, #30E3CB, #2BCADC);
+             background-image: -moz-linear-gradient(top, #30E3CB, #2BCADC);
+             background-image: -ms-linear-gradient(top, #30E3CB, #2BCADC);
+             background-image: -o-linear-gradient(top, #30E3CB, #2BCADC);
+             background-image: linear-gradient(to bottom, #30E3CB, #2BCADC);
+             -webkit-border-radius: 8px;
+             -moz-border-radius: 8px;
+             border-radius: 8px;
+             text-decoration: none; }
+
+/* This is somewhat like an anti-float: .process-desc{ clear:left;}*/
+
+/*****.middle-container {background-color: red;
+        width: 200px;
+        height: 200px;
+        }
+
+.bottom-container {background-color: blue;
+        width: 200px;
+        height: 200px;
+        }
+*****/
